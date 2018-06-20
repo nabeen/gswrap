@@ -10,7 +10,7 @@ First, install gswrap by pip.
 $ pip install gdwrap
 ```
 
-Second, import your script.
+Second, `import` your script.
 
 ```python
 from gswrap.Gswrap import Gswrap
@@ -24,4 +24,4 @@ gd = Gswrap(KEY_FILE, CREDENTIAL_FILE)
 
 You can see usage sample code below.
 
-./sample/*.py
+`./sample/*.py`
