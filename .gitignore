@@ -1,5 +1,6 @@
 ### 🙌Origin ignore files🙌 ###
 .idea/*
+samples/keys/*
 !.gitkeep
 
 ### 🔥Below files were added by gibo🔥 ###

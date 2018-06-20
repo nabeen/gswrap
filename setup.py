@@ -5,19 +5,18 @@ from setuptools import setup
 from setuptools import find_packages
 
 requires = [
-    'google-api-python-client==1.6.4',
-    'httplib2==0.10.3',
+    'google-api-python-client==1.7.3',
+    'httplib2==0.11.3',
     'oauth2client==4.1.2',
-    'pyasn1==0.4.2',
+    'pyasn1==0.4.3',
     'pyasn1-modules==0.2.1',
-    'PyYAML==3.12',
     'rsa==3.4.2',
     'six==1.11.0',
     'uritemplate==3.0.0',
 ]
 
 def main():
-    description = 'gswrap is wrapper libs for Google Spreadsheet Rest API.'
+    description = 'gswrap is wrapper libs for Google Sheet Rest API.'
 
     setup(
         name='gswrap',
